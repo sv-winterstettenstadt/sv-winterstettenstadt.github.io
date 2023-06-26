@@ -1,18 +1,20 @@
 <template>
-  <header class="relative z-50 mx-auto max-w-7xl py-4">
-    <div class="relative flex justify-between items-center md:px-12 px-4">
-      <div class="h-16 w-16 rounded-xl">
+  <header class="relative z-50 mx-auto py-2">
+    <div
+      class="relative max-w-7xl mx-auto flex justify-between items-center md:px-12 px-4"
+    >
+      <div class="h-16 w-16 md:h-24 md:w-24 rounded-xl">
         <a aria-label="Home" class="pointer-events-auto" href="/">
           <img
-            src="/images/logo.png"
-            class="object-contain h-16 w-16"
+            src="/images/logo2.png"
+            class="object-contain h-16 w-16 md:h-24 md:w-24"
             style="color: transparent"
           />
         </a>
       </div>
       <nav class="pointer-events-auto hidden md:block">
         <ul
-          class="flex rounded-full bg-white/90 px-3 text-sm font-medium shadow-lg ring-1 ring-black backdrop-blur"
+          class="flex rounded-full text-gray-300 px-3 text-sm font-medium shadow-lg ring-1 ring-gray-300 backdrop-blur"
         >
           <li>
             <a class="relative block px-3 py-2 transition hover:text-green-600">
@@ -47,15 +49,15 @@
       <div class="flex justify-end gap-2">
         <div class="pointer-events-auto md:hidden">
           <button
-            class="relative block px-3 py-2 transition hover:text-green-600"
+            class="flex items-center rounded-full px-6 text-sm font-medium shadow-lg ring-1 ring-gray-300 text-gray-300 backdrop-blur py-2 transition hover:text-green-600"
             type="button"
             aria-expanded="false"
           >
-            Menu
+            Menü
             <svg
               viewBox="0 0 8 6"
               aria-hidden="true"
-              class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400"
+              class="ml-3 h-auto w-2 stroke-gray-300 group-hover:stroke-green-600"
             >
               <path
                 d="M1.75 1.75 4 4.25l2.25-2.5"
@@ -67,9 +69,9 @@
             </svg>
           </button>
         </div>
-        <div class="pointer-events-auto">
+        <div class="pointer-events-auto hidden md:block">
           <ul
-            class="flex rounded-full bg-white/90 px-3 text-sm font-medium shadow-lg ring-1 ring-black backdrop-blur"
+            class="flex rounded-full px-3 text-sm font-medium shadow-lg ring-1 ring-gray-300 text-gray-300 backdrop-blur"
           >
             <li>
               <a
