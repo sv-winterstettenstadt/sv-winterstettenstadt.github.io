@@ -8,7 +8,7 @@
           Willkommen beim SV Winterstettenstadt 1956 e.V.
         </div>
         <div class="w-100 max-w-[2500px] mx-auto relative">
-          <img src="/images/erste_zweite_mannschaft.png" class="hero-img" />
+          <img src="/images/erste_zweite_mannschaft.webp" class="hero-img" />
           <div
             class="w-100 h-[30px] md:h-[50px] absolute top-0 left-0 right-0 bg-gradient-to-b from-black to-transparent"
           ></div>
